@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "address_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50
+    }
+  },
+  "required": ["name"]
+}
